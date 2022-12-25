@@ -1,4 +1,6 @@
-# Coverlet1266Repro
+# CoverletIssue1386Repro
 
 ### Running
-Execute the GenerateCoverageReport.bat file in the CoverletReproTest folder
+```
+dotnet test --collect:"XPlat Code Coverage"
+```
